@@ -1,24 +1,25 @@
 import React from 'react';
+import data from "./data.json"
 import HornedBeast from './HornedBeast.js';
 
 class Main extends React.Component {
   render() {
+    // // let hornsToRender = [
+    //   imageUrl={data[0].image_url}
+    //   title={data[0].title}
+    //   description={data[0].description}
+    // // ]
     return (
-      <>
+      <Main>
         <HornedBeast
-          title="Eri from MHA"
-          imageUrl="https://i.quotev.com/img/q/u/20/8/25/tmw4ykbro3.jpg"
-          description="Happy Eri with horn"
+          imageUrl="xyz.com"
+          title="abc"
+          description="Hello"
         />
-
-        <HornedBeast
-          title="Imp Mercy"
-          imageUrl="https://pm1.narvii.com/6828/bb90e61a8b0de7d2133c9aa82e3007897c721c26v2_hq.jpg"
-          description="Imp Mercy from Overwatch"
-        />
-      </>
+      </Main>
     )
   }
 }
 
 export default Main;
+
