@@ -15,20 +15,24 @@
 * This is also a good place to reflect on the tools and resources used and learned
 
 
-Number and name of feature: 
-1. Display Images:
-
-> As a user, I want to view the images on the page so that I can browse the photo collection.
+### Number and name of feature:
+```
+Feature #1: 
+As a user, I want to view the images on the page so that I can browse the photo collection.
 
 Estimate of time needed to complete: 60 mins
 
 Start time: 12:19 am Est
 
-Finish time: _____
+Finish time: 12:59 am Est
 
-Actual time needed to complete: _____
+Actual time needed to complete: 40 Min
+```
 
-Number and name of feature: ________________________________
+### Number and name of feature:
+```
+Feature #2: 
+As a user, I want to be able to interact with the site and pick my favorite beast.
 
 Estimate of time needed to complete: _____
 
@@ -37,6 +41,7 @@ Start time: _____
 Finish time: _____
 
 Actual time needed to complete: _____
+```
 
 Number and name of feature: ________________________________
 

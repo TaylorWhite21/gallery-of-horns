@@ -1,23 +1,23 @@
 import React from 'react';
-import data from "./data.json"
+import data from './data.json';
 import HornedBeast from './HornedBeast.js';
 
 class Main extends React.Component {
   render() {
-    // // let hornsToRender = [
-    //   imageUrl={data[0].image_url}
-    //   title={data[0].title}
-    //   description={data[0].description}
-    // // ]
+    let hornsToRender = [];
+    data.forEach(object => {
+      let beast = <HornedBeast
+        imageUrl={object.image_url}
+        title={object.title}
+        description={object.description}
+      />
+      hornsToRender.push(beast);
+    });
     return (
-      <Main>
-        <HornedBeast
-          imageUrl="xyz.com"
-          title="abc"
-          description="Hello"
-        />
-      </Main>
-    )
+      <main>
+        {hornsToRender}
+      </main>
+    );
   }
 }
 
