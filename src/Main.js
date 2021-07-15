@@ -8,9 +8,10 @@ class Main extends React.Component {
 
   render() {
     let hornsToRender = [];
-    data.forEach(object => {
+    data.forEach((object, index) => {
       let beast = 
       <HornedBeast
+        key={index} 
         imageUrl={object.image_url}
         title={object.title}
         description={object.description}
