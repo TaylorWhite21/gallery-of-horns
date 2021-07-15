@@ -34,10 +34,10 @@ class HornedBeast extends React.Component {
           <Card.Text id="likes">
             {this.state.amountOnHand}
             <img id="emoji" src="https://emoji.gg/assets/emoji/4244-zerotwo-heart2.png" alt="zero two with heart" />
-            <p>{this.props.description}</p>
             <Button variant="success" onClick={this.plusOne}>Like</Button>
             <Button variant="danger" onClick={this.subtractOne}>Unlike</Button>
           </Card.Text>
+          <Card.Text>{this.props.description}</Card.Text>
         </Card.Body>
       </Card>
     )
