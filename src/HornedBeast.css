@@ -1,0 +1,21 @@
+button {
+  margin: 10px;
+}
+
+#emoji {
+  width: 50px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#likes {
+  margin-top: 10px;
+}
+
+/* .beast {
+  width: 230px;
+  margin:auto;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+} */

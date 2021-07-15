@@ -2,11 +2,15 @@ import React from 'react';
 import data from './data.json';
 import HornedBeast from './HornedBeast.js';
 
+import CardColumns from 'react-bootstrap/CardColumns';
+
 class Main extends React.Component {
+
   render() {
     let hornsToRender = [];
     data.forEach(object => {
-      let beast = <HornedBeast
+      let beast = 
+      <HornedBeast
         imageUrl={object.image_url}
         title={object.title}
         description={object.description}
@@ -15,7 +19,9 @@ class Main extends React.Component {
     });
     return (
       <main>
+        <CardColumns className="'card-group'">
         {hornsToRender}
+        </CardColumns>
       </main>
     );
   }

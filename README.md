@@ -22,11 +22,11 @@ As a user, I want to view the images on the page so that I can browse the photo 
 
 Estimate of time needed to complete: 60 mins
 
-Start time: 12:19 am Est
+Start time: 00:19
 
-Finish time: 12:59 am Est
+Finish time: 00:59
 
-Actual time needed to complete: 40 Min
+Actual time needed to complete: 40 mins
 ```
 
 ### Number and name of feature:
@@ -34,22 +34,25 @@ Actual time needed to complete: 40 Min
 Feature #2: 
 As a user, I want to be able to interact with the site and pick my favorite beast.
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: 60 mins
 
-Start time: _____
+Start time: 22:26
 
-Finish time: _____
+Finish time: 23:00
 
-Actual time needed to complete: _____
+Actual time needed to complete: 34 mins
 ```
 
-Number and name of feature: ________________________________
+### Number and name of feature: 
+```
+Feature #3:
+As a user, I want to see a visually pleasing application that is also reponsive when I view this application on different screen sizes.
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: 60 min
 
-Start time: _____
+Start time: 23:05
 
-Finish time: _____
+Finish time: 23:47
 
-Actual time needed to complete: _____
+Actual time needed to complete: 42 mins
 
