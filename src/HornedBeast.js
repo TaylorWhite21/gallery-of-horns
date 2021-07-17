@@ -28,7 +28,7 @@ class HornedBeast extends React.Component {
   render() {
     return (
       <Card>
-        <Card.Img style={{width:'250px'}} variant="top" src={this.props.imageUrl} alt="" title={this.props.title} />
+        <Card.Img onClick={() => this.props.handleShowModal(this.props.title)} style={{width:'250px'}} variant="top" src={this.props.imageUrl} alt="" title={this.props.title} />
         <Card.Body>
           <Card.Title>{this.props.title}</Card.Title>
           <Card.Text id="likes">

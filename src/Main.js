@@ -1,5 +1,4 @@
 import React from 'react';
-import data from './data.json';
 import HornedBeast from './HornedBeast.js';
 
 import CardColumns from 'react-bootstrap/CardColumns';
@@ -8,10 +7,12 @@ class Main extends React.Component {
 
   render() {
     let hornsToRender = [];
-    data.forEach((object, index) => {
+    this.props.data.forEach((object, index) => {
       let beast = 
       <HornedBeast
         key={index} 
+        handleShowModal={this.props.handleShowModal}
+        handleCloseModal={this.props.handleCloseModal}
         imageUrl={object.image_url}
         title={object.title}
         description={object.description}

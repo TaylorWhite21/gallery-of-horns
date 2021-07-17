@@ -55,4 +55,18 @@ Start time: 23:05
 Finish time: 23:47
 
 Actual time needed to complete: 42 mins
+```
+
+### Number and name of feature:
+
+Feature #4:
+As a user, I want the image to be displayed in a larger size and with the description shown so that I can view the details of a single image.
+
+Estimate of time needed to complete: 120 mins
+
+Start time: 16:30
+
+Finish time: 18:15
+
+Actual time needed to complete: 105 mins
 
