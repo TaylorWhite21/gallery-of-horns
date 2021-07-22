@@ -70,3 +70,15 @@ Finish time: 18:15
 
 Actual time needed to complete: 105 mins
 
+### Number and name of feature:
+
+Feature #5:
+As a user, I want to be able to view the beasts by the number of horns
+
+Estimate of time needed to complete: 120 mins
+
+Start time: 21:40
+
+Finish time: 23:20
+
+Actual time needed to complete: 100 mins
